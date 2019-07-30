@@ -28,13 +28,13 @@
                 <img class="responsive-img" src="images/EasyJSON.png" width="200" />
             </div>
             <div class="row center">
-                <h5 class="header col s12 light">A simple JSON object library for PHP</h5>
+                <h5 class="header col s12 light">A simple JSON library for PHP</h5>
             </div>
             <div class="row center">
                 <a href="https://github.com/panickapps/EasyJSON/raw/master/Downloads/EasyJSON.zip" id="download-button"
-                   class="btn-large waves-effect waves-light yellow darken-4">Download</a>
+                   class="btn-large waves-effect waves-light yellow darken-4">Download</a><br/><br/>
+                <p class="center-align">or <a href="http://www.github.com/panickapps/EasyJSON">Check out the code on GitHub</a></p>
             </div>
-            <br><br>
 
             <p class="justify">
                 EasyJSON is a simple JSON library for PHP. It allows easy conversion and serialization of PHP objects
@@ -67,7 +67,7 @@
             <h5 id="downloadAndImport">Download and import</h5>
 
             <p>
-                You can download EasyJSON from <a href="https://github.com/panickapps/EasyJSON/raw/master/Downloads/EasyJSON.zip">here</a>.
+                You can download EasyJSON <a href="https://github.com/panickapps/EasyJSON/raw/master/Downloads/EasyJSON.zip">here</a>.
                 Place the EasyJSON folder in the root folder of your code and use the following code to import it in your PHP scripts:
             </p>
 
@@ -80,9 +80,8 @@
             <h5 id="customClass">Creating a custom class</h5>
 
             <p>
-                A custom class can be converted to JSON format if it extends the <span class="code">JsonObject</span> class
-                and implements the <span class="code">JsonSerializable</span> interface.</span>
-                Therefore, all of the classes that are going to be converted to JSON format need to extend and implement these classes.
+                A custom class can be converted to JSON format if it extends the <span class="code">JsonObject</span> class.
+                Therefore, all of the classes that are going to be converted to JSON format need to extend this class.
                 The following example shows how to create an Address class. The class has four properties,
                 road, number, state and country, along with a constructor and methods for setting and getting these properties.
             </p>
