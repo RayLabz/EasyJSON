@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2381723-faa8-4605-ab86-46b0e650db1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examples/Address.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/materialize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/materialize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/materialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/js/util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Downloads/EasyJSON/EasyJSON.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/CustomClasses.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/Example.php" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/Example.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EasyJSON.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyJSON.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Examples/Example.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="391">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -152,18 +138,17 @@
       <option name="presentableId" value="Default" />
       <updated>1564440273279</updated>
       <workItem from="1564440274410" duration="779000" />
-      <workItem from="1564482108958" duration="7204000" />
+      <workItem from="1564482108958" duration="8143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7983000" />
+    <option name="totallyTimeSpent" value="8922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,7 +161,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -231,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/Example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="391">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
