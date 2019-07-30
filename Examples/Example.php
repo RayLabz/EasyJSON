@@ -1,19 +1,32 @@
 <?php
 
-require_once("..\EasyJSON\EasyJSON.php");
-require_once("CustomClasses.php");
+//Import:
+require_once("..\src\EasyJSON.php");
 
+use EasyJSON\JsonObject as JsonObject;
 
-$carCollection = array();
-for ($i = 0; $i < 3; $i++) {
-    $engine = new Engine("carEngine" . $i);
-    $car = new Car("carModel" . $i, $engine);
-    for ($j = 0; $j < 3; $j++) {
-        $comp = new Component($j);
-        $engine->addComponent($comp);
-    }
-    $car->setEngine($engine);
-    array_push($carCollection, $car);
-}
+//Take a look at files Address.php and Person.php to see how classes can be created by extending the JsonObject class.
 
-echo $car->toJSON();
+//Import your custom class:
+require_once("Address.php");
+
+//Instantiate an object of class Address:
+$address = new Address("myRoad", 10, "myState", "myCountry");
+
+//echo $address->toJson();
+
+require_once("Person.php");
+$person = new Person("John", "Doe", $address);
+
+//echo $person->toJson();
+
+//Create second person and assign it as a friend to the first person:
+$person2 = new Person("Jane", "Jones", $address);
+$person->addFriend($person2);
+//echo $person->toJson();
+
+//Lets also add another person in the array:
+$person3 = new Person("George", "Michaels", $address);
+$person->addFriend($person3);
+
+echo $person->toJson();
