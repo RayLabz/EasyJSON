@@ -10,6 +10,9 @@ EasyJSON is a simple JSON library for PHP. It allows easy conversion and seriali
 
 EasyJSON requires <b>PHP version 7 or higher</b>.
 
+## Download
+You can download EasyJSON [here](https://github.com/panickapps/EasyJSON/raw/master/Downloads/EasyJSON.zip).
+
 ## Guide
 You can find a guide on how to use EasyJSON [here](https://panickapps.github.io/EasyJSON).
 
