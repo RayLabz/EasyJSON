@@ -1,5 +1,17 @@
 <?php
 
+/**
+ * Created by PaNickApps - 2019
+ * Visit http://www.panickapps.com
+ *
+ * EasyJSON - A simple JSON object library for PHP
+ * Easy conversion and serialization of PHP objects to JSON.
+ * Repository: https://github.com/panickapps/EasyJSON
+ * Guide:
+ *
+ * You may view, modify but NOT sell any of the contents in this file.
+ */
+
 namespace EasyJSON {
 
     use ReflectionClass;

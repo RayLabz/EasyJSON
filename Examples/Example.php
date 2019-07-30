@@ -1,6 +1,6 @@
 <?php
 
-require_once("EasyJSON\EasyJSON.php");
+require_once("..\EasyJSON\EasyJSON.php");
 require_once("CustomClasses.php");
 
 
