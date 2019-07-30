@@ -42,9 +42,26 @@
 
             <hr/>
 
-            <h4>Guide</h4>
+            <h4>Contents</h4>
 
-            <h5>Download and import</h5>
+            <ul class="browser-default">
+                 <li><a href="#guide">Guide</a>
+                 <ul class="browser-default">
+                     <li><a href="#downloadAndImport">Download and import</a></li>
+                     <li><a href="#customClass">Creating a custom class</a></li>
+                     <li><a href="#serialize">Serialize/Encode to JSON text</a></li>
+                     <li><a href="#nesting">Nesting objects</a></li>
+                     <li><a href="#arrays">Working with arrays</a></li>
+                 </ul>
+                 </li>
+                <li><a href="#example">Full example</a></li>
+                <li><a href="#usage">Usage rights</a></li>
+                <li><a href="#bugreport">Bug reporting</a></li>
+            </ul>
+
+            <h4 id="guide">Guide</h4>
+
+            <h5 id="downloadAndImport">Download and import</h5>
 
             <p>
                 You can download EasyJSON from <a href="https://github.com/panickapps/EasyJSON/raw/master/Downloads/EasyJSON.zip">here</a>.
@@ -57,7 +74,7 @@
 
             <pre class="prettyprint php">use EasyJSON\JsonObject as JsonObject;</pre>
 
-            <h5>Creating a custom class</h5>
+            <h5 id="customClass">Creating a custom class</h5>
 
             <p>
                 A custom class can be converted to JSON format if it extends the <span class="code">JsonObject</span> class
@@ -126,7 +143,7 @@ class Address extends JsonObject {
 
             <pre class="prettyprint php">$address = new Address("myRoad", 10, "myState", "myCountry");</pre>
 
-            <h5>Serialize/Encode to JSON text</h5>
+            <h5 id="serialize">Serialize/Encode to JSON text</h5>
 
             <p>You can use the <span class="code">toJSON()</span> method to serialize/encode an object into its JSON text representation:</p>
 
@@ -134,7 +151,7 @@ class Address extends JsonObject {
 
             <p>This will print: <span class="code">{"road":"myRoad","number":10,"state":"myState","country":"myCountry"}</span></p>
 
-            <h5>Nesting objects</h5>
+            <h5 id="nesting">Nesting objects</h5>
 
             <p>In some cases, you will need to create a custom object inside another object. To show an example, we will
             use a Person class, which will include the properties firstName, lastName, address and friends where the property
@@ -201,7 +218,7 @@ echo $person->toJson();</pre>
 
             <p>This should print: <span class="code">{"firstName":"John","lastName":"Doe",<b>"address":{"road":"myRoad","number":10,"state":"myState","country":"myCountry"}</b>}</span></p>
 
-            <h5>Working with arrays</h5>
+            <h5 id="arrays">Working with arrays</h5>
 
             <p>You can include arrays in your custom classes like in the Person class:</p>
 
@@ -257,9 +274,19 @@ echo $person->toJson();
                     "lastName":"Michaels","address":{"road":"myRoad","number":10,"state":"myState","country":"myCountry"}}]</b>}</span></p>
 
 
-            <h4>Full example</h4>
+            <h4 id="example">Full example</h4>
 
-            <p>Please see </p>
+            <p>Please see the <a href="https://github.com/panickapps/EasyJSON/tree/master/Examples">complete example here.</a></p>
+
+            <h4 id="usage">Usage rights</h4>
+
+            <p>
+                You may read, use and modify EasyJSON for your own purposes but you may NOT sell it.
+            </p>
+
+            <h4 id="bugreport">Bug reporting</h4>
+
+            <p>Please report bugs <a href="mailto:panickapps@gmail.com?subject=EasyJSON">here</a>.</p>
 
             <br/><br/>
         </div>
