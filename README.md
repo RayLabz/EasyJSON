@@ -19,5 +19,9 @@ You can find a guide on how to use EasyJSON [here](https://panickapps.github.io/
 ## Examples
 You can also find a full example in the 'example' directory on this repository.
 
+## License
+
+The Response library is released under the [Apache 2.0 license](https://github.com/panickapps/EasyJSON/blob/master/LICENSE).
+
 ## Bug reporting
 You can report bugs related to this library by email [here](mailto:panickapps@gmail.com?subject=EasyJSON).
