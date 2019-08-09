@@ -7,9 +7,9 @@
  * EasyJSON - A simple JSON object library for PHP
  * Easy conversion and serialization of PHP objects to JSON.
  * Repository: https://github.com/panickapps/EasyJSON
- * Guide:
+ * Guide: https://panickapps.github.io/EasyJSON/
  *
- * You may view, modify but NOT sell any of the contents in this file.
+ * Apache 2.0 License
  */
 
 namespace EasyJSON {
