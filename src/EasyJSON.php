@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Created by PaNickApps - 2019
- * Visit http://www.panickapps.com
+ * Created by RayLabz - 2019
+ * Visit http://www.RayLabz.com
  *
  * EasyJSON - A simple JSON object library for PHP
  * Easy conversion and serialization of PHP objects to JSON.
- * Repository: https://github.com/panickapps/EasyJSON
- * Guide: https://panickapps.github.io/EasyJSON/
+ * Repository: https://github.com/RayLabz/EasyJSON
+ * Guide: https://RayLabz.github.io/EasyJSON/
  *
  * Apache 2.0 License
  */
